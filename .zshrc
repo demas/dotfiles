@@ -105,3 +105,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# docker containers
+alias jupyter="sudo docker run -p 8888:8888 -v $(pwd):/home/jovyan jupyter/datascience-notebook"
