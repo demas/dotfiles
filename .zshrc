@@ -108,3 +108,7 @@ source $ZSH/oh-my-zsh.sh
 
 # docker containers
 alias jupyter="sudo docker run -p 8888:8888 -v $(pwd):/home/jovyan jupyter/datascience-notebook"
+alias postgre="sudo docker run --name postgresql -itd --publish 5432:5432 --env 'DB_USER=user' --env 'DB_PASS=pass' --env 'DB_NAME=db' --env 'PG_PASSWORD=pass' sameersbn/postgresql:10-2"
+alias psql="sudo docker exec -it postgresql sudo -u postgres psql"
+
+
