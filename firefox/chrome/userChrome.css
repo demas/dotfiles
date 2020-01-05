@@ -1,0 +1,12 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* размер шрифта во вкладках */
+.tab-text {
+  -moz-appearance: none !important; font-size: 10pt !important;
+}
+
+/* размер шрифта в контекстном меню */
+#mainPopupSet menuitem,
+#mainPopupSet menu {
+  font-size: 10pt !important; 
+}
