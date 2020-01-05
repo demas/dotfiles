@@ -22,7 +22,8 @@
 
     /* mine */
     --accent-color: #4e4145; /* #'s before H1-3 */ /* todo: apaptation */
-
+    --dracula-code-background:#202328;
+ 
     --bg-color: var(--dracula-background);
     --side-bar-bg-color: var(--dracula-section);
     --text-color: var(--dracula-comment);
@@ -944,3 +945,13 @@ h3::before {
   content: '###';
 }
 
+.md-fences,
+code,
+tt {
+  background-color: var(--dracula-code-background);
+  font-family: var(--monospace-font);
+  font-size: var(--monospace-font-size);
+  border-radius: .25rem;
+  padding: 0 .125rem;
+  line-height: var(--monospace-line-height);
+}
