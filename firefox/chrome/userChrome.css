@@ -46,6 +46,33 @@
 #context-sep-sendlinktodevice,
 #context_sendTabToDevice,
 #context_sendTabToDevice_separator,
-#context-pocket {
+#context-pocket,
+#ublock0_raymondhill_net-menuitem-_uBlock0-blockElement
+{
   display: none !important;
+}
+
+/* font size in main menu */
+#appMenu-mainView {
+  font-size: 10pt !important
+}
+
+/* hide url dropdown */
+.urlbar-history-dropmarker {
+  display: none !important;
+}
+
+/* hide url pocket button */
+#pocket-button-box {
+  display: none !important;
+}
+
+/* hide url bookmark button */
+#star-button-box {
+  display: none !important;
+}
+
+/* hide fingerprint icon from url bar */
+#pageAction-urlbar-canvasblocker_kkapsner_de {
+  display: none !important;        
 }
