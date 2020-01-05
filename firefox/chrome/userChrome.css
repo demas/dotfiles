@@ -10,3 +10,42 @@
 #mainPopupSet menu {
   font-size: 10pt !important; 
 }
+
+/* show bookmarks only on new tab */
+#main-window #PersonalToolbar {
+  visibility: collapse !important;
+}
+
+#main-window[title^="about:newtab"] #PersonalToolbar,
+#main-window[title^="New Tab"] #PersonalToolbar,
+#main-window[title^="Nightly"] #PersonalToolbar,
+#main-window[title^="Mozilla Firefox"] #PersonalToolbar,
+#main-window[title^="Firefox"] #PersonalToolbar,
+#main-window[title^="新标签页"] #PersonalToolbar,
+#main-window[title^="Customize Firefox"] #PersonalToolbar {
+  visibility: visible !important;
+}
+
+/* black address bar in private mode */
+#main-window[privatebrowsingmode="temporary"] #urlbar
+{
+  background: black !important;
+  color: white !important;
+}
+
+/* grayscale extension buttons */
+#_d634138d-c276-4fc8-924b-40a0ea21d284_-browser-action,
+#umatrix_raymondhill_net-browser-action {
+  filter: grayscale(1) brightness(0.5) contrast(1) invert(1); /* Remove invert(1) to make it dark */
+}
+
+/* hide context-menu items */
+#context-sendpagetodevice,
+#context-sep-sendpagetodevice,
+#context-sendlinktodevice,
+#context-sep-sendlinktodevice,
+#context_sendTabToDevice,
+#context_sendTabToDevice_separator,
+#context-pocket {
+  display: none !important;
+}
