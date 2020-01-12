@@ -11,7 +11,7 @@ augroup specify_filetype
 augroup END
 
 " Enable spell-checking for certain files
-autocmd FileType text,markdown setlocal spell
+" autocmd FileType text,markdown setlocal spell
 
 " enable syntax highlighting
 syntax on

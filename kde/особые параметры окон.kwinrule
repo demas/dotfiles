@@ -1,0 +1,13 @@
+[Параметры для dolphin]
+Description=Параметры для dolphin
+clientmachine=localhost
+clientmachinematch=0
+opacityactive=95
+opacityactiverule=2
+opacityinactive=95
+opacityinactiverule=2
+title=Домашняя папка — Dolphin
+titlematch=0
+wmclass=dolphin
+wmclasscomplete=false
+wmclassmatch=1

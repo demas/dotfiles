@@ -9,4 +9,4 @@ source $HOME/.config/nvim/mappings.vim
 
 " plugin settings
 source $HOME/.config/nvim/plugin-settings/markdown.vim
-
+source $HOME/.config/nvim/plugin-settings/nerdtree.vim
