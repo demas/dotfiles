@@ -19,6 +19,15 @@ Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+" Gitgutter: display git diff info
+Plug 'airblade/vim-gitgutter'
+
+" Fugitive: git wrapper
+Plug 'tpope/vim-fugitive'
+
+" COC
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 " color themes
 Plug 'liuchengxu/space-vim-theme'
 call plug#end()

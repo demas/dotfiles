@@ -46,6 +46,9 @@ set smartcase
 " Enable mouse scroll
 set mouse=a
 
+" display line numbers
+set number
+
 " Matching braces/tags
 set showmatch
 
