@@ -114,4 +114,5 @@ alias postgre="sudo docker run --name postgresql -itd --publish 5432:5432 --env 
 alias psql="sudo docker exec -it postgresql sudo -u postgres psql"
 
 
-
+# backups
+alias backup.music="rsync -azvh --delete /mnt/yandex/music /run/media/ceth/Backups/music"
